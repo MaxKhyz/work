@@ -8,10 +8,11 @@
 
  /****************************** Included files ********************************/
 #include"stack.h"
+#include"queue.h"
 
  /******************************** Definition **********************************/
-#define FIX_LENGTH_STACK_TEST   (1)
-#define FIX_LENGTH_QUEUE_TEST   (0)
+#define FIX_LENGTH_STACK_TEST   (0)
+#define FIX_LENGTH_QUEUE_TEST   (1)
 #define ADDITIONAL_TEST         (1)
 
 #define DISCARD_RETURN(f) ((void)f)

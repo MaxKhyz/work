@@ -16,5 +16,6 @@
 typedef uint8_t data_t;
 
 #define STACK_LENGTH    (10u) ///< Fixed stack size (is used in the test)
+#define QUEUE_LENGTH    (10u) ///< Fixed stack size (is used in the test)
 /******************************************************************************/
 #endif /* !COMMON_H_ */

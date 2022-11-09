@@ -147,10 +147,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\queue.c" />
     <ClCompile Include="src\stack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\common.h" />
+    <ClInclude Include="inc\queue.h" />
     <ClInclude Include="inc\stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
